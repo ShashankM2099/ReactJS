@@ -1,0 +1,22 @@
+there are 4 ways to declare a component in React
+React: "HTML" in javaScript.
+1.createClass: var HelloWorld = React.createClass({
+    funciton funciton();
+}); original way but no one uses it anymore: So i dont have to use it anymore.
+
+2. JS CLass Component: class className extends Component{
+    render(props: one argo only){
+        return(
+
+        )
+    }
+} Hard to do this by this way....CAN DO IT TOO.
+
+3. Function Component: function functionName(props){ props: properties
+    return(
+        <h1>Hello World</>
+    );
+} Best function component way to create component
+
+4. Arrow Function: const arrowFn = (props) => <h1> Arrow Function </h1> 
+Best to use it for single expression only, can use {} to make it more functionable.
